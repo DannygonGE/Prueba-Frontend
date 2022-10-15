@@ -181,5 +181,8 @@ FORMULARIOS
         margin-top: 50px;
         display: inline;
     }
+}
+
+@media screen and (max-width: 1500px) {
     
 }
