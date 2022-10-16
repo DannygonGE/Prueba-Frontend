@@ -14,6 +14,12 @@
     box-sizing: 0;
 }
 
+/* 
+
+CONTENT
+
+*/
+
 .content {
     min-height: 100vh;
     background: linear-gradient(to right top, var(--blue), var(--blue-gradient));
@@ -22,7 +28,7 @@
 }
 
 
-/* content */
+
 .glass {
     width: 70%;
     height: 80vh;
@@ -167,7 +173,20 @@ FORMULARIOS
 
 */
 
+.nombre_red {
+    color: var(--red);
+}
 
+/*
+
+RESULTADOS 
+
+*/
+
+.output {
+    font-weight: bold;
+    margin-top: 20px;
+}
 
 @media screen and (min-width: 1800px) {
     .sub-content {
@@ -183,6 +202,94 @@ FORMULARIOS
     }
 }
 
-@media screen and (max-width: 1500px) {
-    
+@media screen and (max-width:360px) {
+
+    .ad h1 {
+        font-size: 20px;
+    }
+
+    .nombre{
+        display: none;
+    }
+
+
+    .resultado h1 {
+        font-size: 15px;
+        text-align: center;
+        margin-left: 50px;
+    }
+
+    .input {
+        font-size: 15px;
+        width: 180px;
+    }
+
+    .NOMBRES {
+        text-align: center;
+    }
+
+    .button {
+        margin-left: none;
+    }
+}
+
+@media screen and (max-width:720px) {
+ 
+    .ad h1 {
+        margin-top: 30px;
+    }
+
+    .nombre{
+        display: none;
+    }
+
+    .button {
+        margin-left: 30%;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .ad h1 {
+        margin-top: 30px;
+    }
+
+    .nombre{
+        display: none;
+    } 
+}
+
+@media screen and (max-width:1100px) {
+    .ad h1 {
+        margin-top: 30px;
+    }
+
+    .nombre{
+        display: none;
+    } 
+
+    .resultado {
+        margin-left: 25%;
+        text-align: center;
+    }
+
+    .button {
+        margin-left: 25%;
+    }
+
+}
+
+
+
+@media screen and (max-width:1304px) {
+    .ad {
+       margin-bottom: 0; 
+    }
+
+    .sub-content {
+        margin-top: 0;
+    }
+
+    .Ejemplo {
+        display: none;
+    }
 }

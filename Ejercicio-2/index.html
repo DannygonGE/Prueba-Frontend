@@ -17,56 +17,47 @@
 
 </head>
 <body>
-    
+<!-- content -->
     <main class="content">
-        <section class="glass" id="glass">
-            <div class="ad">
+    <section class="glass" id="glass">
+<!-- Titulo -->
+        <div class="ad">
+            <h1>Adivino la edad con los Nombres</h1>
+        </div>
+<!-- lado izquierdo -->
+    <div class="sub-content">
+            <div class="nombre">
+                <h1>Ingresa El Nombre o los Nombres</h1>
+                <p>
+                Si, Así es, puedo predecir la edad de una persona solo con el nombre, (puedes poner un solo nombre o muchos nombres al mismo tiempo). 
+                </p>
 
-                    <h1>Adivino la edad con los Nombres</h1>
-            </div>
-            <div class="sub-content">
-                <div class="nombre">
-                    <h1>Ingresa El Nombre o los Nombres</h1>
-                    <p>
-                        Si, Así es, puedo predecir la edad de una persona solo con el nombre, (puedes poner un solo nombre o muchos nombres al mismo tiempo). 
-                    </p>
-                    <p>
-                        Puedes poner tu localizacion para tener un resultado mas exacto.
-                        (En dado caso de no ponerse se pondra USA por defecto)
-
-                    </p>
-                    <h1 class="Ejemplo">Ejemplo:</h1>
+                <p>
+                Puedes poner tu pais para tener un resultado mas exacto.
+                (En dado caso de no ponerse se pondra USA por defecto)
+                </p>
+    <!-- maquina de escribir efecto-->
+                <h1 class="Ejemplo">Ejemplo:</h1>
                     <input class="example typed" type="text" name="" id="">
-                    <h4>o tambien puedes colocar varios nombres</h4>
+                <h4 class="h4">o tambien puedes colocar varios nombres</h4>
                     <input class="example typed2" type="text" name="" id="">
                     <br>
-                    <img class="img" src="./assets/img/cookie-svgrepo-com.svg" alt="img">
-                </div>
-                <div class="resultado" id="resultado"> 
-                    <h1>Inserte aqui el nombre</h1>
-
-                    <input class="input" name="nombre" placeholder="Nombre o Nombres" type="text" id="nameInput">
-
-                    <h1 class="localizacion">Tu localizacion (opcional)</h1>
-
-                    <input class="input" placeholder="Ejemplo: Colombia se pone como Co" type="string" name="localizacion" id="loc">
-
-                    <button class="button" type="submit" id="button">
-                        <p>Enviar</p>
-                    </button>
-
-                    <div id="output">
-
-                    </div>
-                    
-                </div>
+                <img class="img" src="./assets/img/cookie-svgrepo-com.svg" alt="img">
             </div>
-            
-
-        </section>
+<!-- lado derecho -->
+        <div class="resultado" id="resultado"> 
+        <h1>Inserte aqui el nombre</h1>
+            <input class="input NOMBRES" name="nombre" placeholder="Nombre o Nombres" type="text" id="nameInput">
+        <h1 class="localizacion">Tu localizacion (opcional)</h1>
+            <input class="input" placeholder="Colombia se pone como CO" type="string" name="localizacion" id="loc">
+        <button class="button" type="submit" id="button">
+            <p>Enviar</p>
+        </button>
+        <div id="output" class="output"></div>
+        </div>
+    </div>
+    </section>
     </main>
-
-
 
     <!-- javascript files-->
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
